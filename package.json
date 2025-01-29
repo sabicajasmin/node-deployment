@@ -1,0 +1,23 @@
+{
+  "name": "my-node-express-mongo-app",
+  "version": "1.0.0",
+  "description": "A Node.js and Express.js application with MongoDB integration for handling form data.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.6.0",
+    "express": "^4.21.2",
+    "mongoose": "^5.13.23",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "author": "",
+  "license": "ISC"
+}
