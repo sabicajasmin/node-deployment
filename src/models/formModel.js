@@ -13,10 +13,10 @@ const formSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    amount: {
-        type: Number,
-        required: true,
-    },
+    // amount: {
+    //     type: Number,
+    //     required: true,
+    // },
     mobileNumber: {
         type: String,
         required: true,
